@@ -1,13 +1,14 @@
 # psdevFileInput
 ==============
 
+### Description
 jQuery file input plugin
 
 ### Require
 jQuery, Font Awesome (can be replaced with anything you want)
 
 ### Usage
-CSS/JS
+Include CSS/JS
 ``` html
 <link rel="stylesheet" href="css/font-awesome.css">
 <link rel="stylesheet" href="css/psdev.fileinput.css">
@@ -16,6 +17,7 @@ CSS/JS
 <script src="js/psdev.fileinput.js"></script>
 ```
 
+Add input
 Input
 ``` html
 <input type="file" name="file" multiple>
