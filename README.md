@@ -17,8 +17,7 @@ Include CSS/JS
 <script src="js/psdev.fileinput.js"></script>
 ```
 
-Add input
-Input
+Add file input
 ``` html
 <input type="file" name="file" multiple>
 ```
