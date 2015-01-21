@@ -63,6 +63,10 @@ $(function() {
 			this.el.$count 		= this.el.$box.find( '.count' );
 			this.el.$btnPrev 	= this.el.$box.find( '.btn-prev' );
 			this.el.$btnNext 	= this.el.$box.find( '.btn-next' );
+			
+			if ($el.attr( 'data-size' )) {
+				this.el.$box.addClass( $el.attr( 'data-size' ) );
+			}
 		};
 		
 		this.renderFiles = function() {

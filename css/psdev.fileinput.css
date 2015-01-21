@@ -12,6 +12,11 @@
 	border: 1px solid #222;
 }
 
+.psdevFileInput.small 	{ width: 160px; }
+.psdevFileInput.medium 	{ width: 220px; }
+.psdevFileInput.big 	{ width: 280px; }
+.psdevFileInput.full 	{ width: 100%; }
+
 .psdevFileInput, .psdevFileInput * {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
