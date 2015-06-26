@@ -49,11 +49,11 @@ $(function() {
 
 		this.createStructure = function() {
 			$el.wrap( this.templates.btnOpen() );
-			$el.parent().append( this.templates.btnOpenIcon() );
+			$el.parent().prepend( this.templates.btnOpenIcon() );
 
 			$el.parent().wrap( this.templates.box() );
 			$el.parent().parent().append( this.templates.objects() );
-			
+
 			this.el.$box 		= $el.parent().parent();
 			this.el.$input 		= $el;
 			this.el.$name 		= this.el.$box.find( '.name' );
